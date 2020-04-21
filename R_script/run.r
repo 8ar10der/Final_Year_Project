@@ -1,8 +1,6 @@
 library(ggplot2)
 library(cowplot)
-library(gridExtra)
 library(rowr)
-library(TSdist)
 library(signal)
 library(scales)
 
@@ -103,7 +101,6 @@ p3 <- ggplot(df) +
   ggtitle("PCA_Two")
 
 # Merge and save plot
+pdf(NULL)
 plot_grid(plot_grid(p2, p3), p1, ncol = 1)
-ggsave("output_plot.pdf")
-
-
+ggsave("output_plot.pdf", height = 11.5, width = 20.5)
