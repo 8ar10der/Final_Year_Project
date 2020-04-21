@@ -22,11 +22,11 @@ Install [**Install.apk**](./Install.apk) on two phones.
 
 ## Compile
 
-Import to [FYPApplication](./FYPApplication) to the Android Studio or Intellij IDEA as a Android project.
+Import [FYPApplication](./FYPApplication) to the Android Studio or Intellij IDEA as a Android project.
 
-Update the *Android SDK Build Tools* to the latest version.
+Update the *Android SDK Build Tools* to the latest version (in the SDK manager).
 
-Then compile the project and test the APP via the ADB.
+Then compile the project and debug the APP via the ADB.
 
 ## Use Guide
 
