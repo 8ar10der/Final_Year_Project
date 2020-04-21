@@ -11,10 +11,10 @@ University College Dublin
 ## The Repository Structure 
 
 The **Android_application** folder store the source code of the Android application I modified. 
-For more details such as how to use it, please read the [README file](./Android_application/README.md) in this folder.
+For more details such as how to use it, please read this [README file](./Android_application/README.md).
 
 The **R_script** folder store the R script used to do the PCA and draw the result plots.
-For more details such as how to use it, please read the [README file](./R_script/README.md) in this folder.
+For more details such as how to use it, please read this [README file](./R_script/README.md).
 
 ## Project Specification
 In this project, the core goals are developing an app to record accelerometer data in the X, Y and
