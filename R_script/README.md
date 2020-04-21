@@ -29,10 +29,5 @@ The plot will create in the folder named "output_plot.pdf", the importance of co
 
 If you want to change the size of the plot, just modified the last line of the script.
 
-## [BUG] The plot may break and shift !
-
-It seems to be a bug of the ggplot2. I make a post at [here](https://stackoverflow.com/questions/61311410/why-ggplot2-will-draw-a-breakshift-time-series-line-plot)。
-Welcome to discussion.
-
 ## Reference
 Thanks for the [rowr.r file](https://github.com/cvarrichio/rowr) from [@cvarrichio](https://github.com/cvarrichio)
