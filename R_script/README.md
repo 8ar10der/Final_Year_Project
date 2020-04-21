@@ -12,7 +12,7 @@ Make sure you have installed the R language in your system. If not, please downl
 Then please install the R packages via the `install.packages()` command:
 * ggplot2
 * cowplot
-* rowr
+* plyr
 * signal
 * scales
 

@@ -1,8 +1,14 @@
 library(ggplot2)
 library(cowplot)
-library(rowr)
+library(plyr)
 library(signal)
 library(scales)
+
+cbind.fill <- function(...) {
+  transpoted <- lapply(list(...),t)
+  transpoted_dataframe <- lapply(transpoted, as.data.frame)
+  return (data.frame(t(rbind.fill(transpoted_dataframe))))
+}
 
 # Read Data File
 a <- read.csv("exampleA.csv", header = TRUE)
