@@ -12,7 +12,6 @@ Make sure you have installed the R language in your system. If not, please downl
 Then please install the R packages via the `install.packages()` command:
 * ggplot2
 * cowplot
-* plyr
 * signal
 * scales
 
@@ -34,3 +33,6 @@ If you want to change the size of the plot, just modified the last line of the s
 
 It seems to be a bug of the ggplot2. I make a post at [here](https://stackoverflow.com/questions/61311410/why-ggplot2-will-draw-a-breakshift-time-series-line-plot)。
 Welcome to discussion.
+
+## Reference
+Thanks for the [rowr.r file](https://github.com/cvarrichio/rowr) from [@cvarrichio](https://github.com/cvarrichio)
